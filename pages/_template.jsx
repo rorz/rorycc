@@ -5,6 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 import '../css/pagestyles.scss'
+import Footer from '../components/footer'
 
 import { rhythm } from '../utils/typography'
 
@@ -54,6 +55,9 @@ module.exports = React.createClass({
           }}
         >
           {this.props.children}
+        </Container>
+        <Container>
+          <Footer />
         </Container>
       </div>
     )
