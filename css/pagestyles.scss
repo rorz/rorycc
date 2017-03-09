@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Allan');
+
+.retro-title {
+  background: #44bcf4; /* Old browsers */
+  background: -moz-linear-gradient(top, #44bcf4 0%, #d2e8f2 13%, #e5ebee 50%, #d7dee3 51%, #f7f7f7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #44bcf4 0%,#d2e8f2 13%,#e5ebee 50%,#d7dee3 51%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #44bcf4 0%,#d2e8f2 13%,#e5ebee 50%,#d7dee3 51%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44bcf4', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+
+  text-shadow: 0 0 2px rgba(255,255,255,.6) , 0 0 4px rgba(255,255,255,0.5) , 0 0 6px rgba(255,255,255,.2) , 0 0 8px RGBA(100, 193, 241, 0.4) , 0 0 10px RGBA(100, 193, 241, 0.2) , 0 0 12px RGBA(100, 193, 241, 0.1) , 0 0 14px RGBA(100, 193, 241, 0.05) ;
+
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-decoration: none;
+    font-family: 'Allan';
+    font-weight: 700;
+    font-size: 1.8rem;
+}
