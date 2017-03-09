@@ -36,7 +36,7 @@ module.exports = React.createClass({
               to={prefixLink('/')}
               className="retro-title"
             >
-              RORY<span style={{marginLeft: '1rem', fontSize: '.6rem'}}> &nbsp;&nbsp;&nbsp;&nbsp;これはイースターエッグです</span>
+              <div className="numberCircle yellow"><span>RO</span></div><div className="numberCircle yellow"><span>RY</span></div><div className="numberCircle blue"><span>CC</span></div><span style={{marginLeft: '1rem', fontSize: '.6rem'}}> &nbsp;&nbsp;&nbsp;&nbsp;これはイースターエッグです</span>
                 </Link>
           </Container>
         </Headroom>
