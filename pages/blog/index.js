@@ -22,10 +22,12 @@ export default class Index extends React.Component {
           textDecoration: 'underline',
           display: 'inline-block'
         }}>
-          Rory McMeekin
+          Rory's Blog
         </h1>
-        <p>It's a static site build in React, with the GatsbyJS framework.</p>
-
+        Recent posts:
+        <div>
+          <h2>Building FormCharm</h2>
+        </div>
       </div>
     )
   }

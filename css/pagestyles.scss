@@ -1,36 +1,56 @@
 @import url( 'https://fonts.googleapis.com/css?family=Allan');
 
-.retro-title {
-    border-top: 1px solid white;
+.navbar {
+   border-top: 4px solid white;
     padding-top: 10px;
     color: white;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.navItem, .navItem a {
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-weight: 600;
+  color: #999;
+  text-decoration: none;
+}
+
+.navItem.active {
+  color: white
+}
+
+.retro-title {
     text-decoration: none;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .numberCircle {
+  color: white;
     border-radius: 50%;
     width: 60px;
     font-size: 22px;
-    background-color: RGBA(15, 103, 186, 1.00);
+    background-color: #2897FF;
     line-height: 40px;
     margin-right: .2rem;
 }
 
 .numberCircle.yellow {
     width: 40px;
-    background-color: RGBA(249, 223, 1, 1.00);
+    background-color: #FFEE00;
     color: #222;
 }
 
 .numberCircle.blue {
     width: 40px;
     font-size: 22px;
-    background-color: RGBA(15, 103, 186, 1.00);
+    background-color: #2897FF;
     line-height: 40px;
 }
 
