@@ -32,7 +32,7 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <link rel="icon" href={favicon}>
+          <link rel="icon" href={favicon} />
             {head.title.toComponent()}
             {head.meta.toComponent()}
             <TypographyStyle typography={typography} />
