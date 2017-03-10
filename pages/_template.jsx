@@ -40,7 +40,7 @@ module.exports = React.createClass({
               >
                 <div className="numberCircle yellow"><span>RO</span></div><div className="numberCircle yellow"><span>RY</span></div><div className="numberCircle blue"><span>CC</span></div>
               </Link>
-              <Link to={prefixLink('/blog/')} activeClassName="active" className="navItem">Blog</Link>
+              <Link to={prefixLink('/')} activeClassName="active" className="navItem">Blog</Link>
               <Link to={prefixLink('/code/')} className="navItem">Code</Link>
               <Link to={prefixLink('/music/')} className="navItem">Music</Link>
               <Link to={prefixLink('/about/')} className="navItem">About</Link>
@@ -56,9 +56,7 @@ module.exports = React.createClass({
         >
           {this.props.children}
         </Container>
-        <Container>
-          <Footer />
-        </Container>
+        <Footer />
       </div>
     )
   },

@@ -1,24 +1,51 @@
-@import url( 'https://fonts.googleapis.com/css?family=Allan');
+@import url( 'https://fonts.googleapis.com/css?family=Roboto+Slab');
+$family_serif: 'Roboto Slab';
+$family_sans: Helvetica;
+$family_mono: Courier;
 
-.navbar {
-   border-top: 4px solid white;
-    padding-top: 10px;
+$rory_red: #EC5858;
+$rory_yellow: #ECDF58;
+$rory_blue: #588AEC;
+
+h1,
+h2 {
+    padding: 10px;
     color: white;
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
+    background-color: black;
+    text-decoration: underline;
+    display: inline-block;
 }
 
-.navItem, .navItem a {
-  margin-left: 20px;
-  font-family: Helvetica;
-  font-weight: 600;
-  color: #999;
-  text-decoration: none;
+h2 {
+    padding: 5px;
+    color: #222;
+    background-color: $rory_yellow;
+}
+
+p {
+  font-family: $family_serif;
+}
+
+.navbar {
+    border-top: 4px solid white;
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.navItem,
+.navItem a {
+    margin-left: 20px;
+    font-family: Helvetica;
+    font-weight: 600;
+    color: #999;
+    text-decoration: none;
 }
 
 .navItem.active {
-  color: white
+    color: white;
 }
 
 .retro-title {
@@ -32,25 +59,25 @@
 }
 
 .numberCircle {
-  color: white;
+    color: white;
     border-radius: 50%;
     width: 60px;
     font-size: 22px;
-    background-color: #2897FF;
+    background-color: $rory_blue;
     line-height: 40px;
-    margin-right: .2rem;
+    margin-right: 0.2rem;
 }
 
 .numberCircle.yellow {
     width: 40px;
-    background-color: #FFEE00;
+    background-color: $rory_yellow;
     color: #222;
 }
 
 .numberCircle.blue {
     width: 40px;
     font-size: 22px;
-    background-color: #2897FF;
+    background-color: $rory_blue;
     line-height: 40px;
 }
 
@@ -60,11 +87,52 @@
 }
 
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-family: $family_mono;
+    width: 100%;
+}
+/* Article Preview */
+
+.articlePreview {
+  margin-bottom: 3rem;
+}
+
+.articlePreview p {
+  background-color: RGBA(249, 249, 249, 1.00);
+  padding-top: 1rem;
+  padding-bottom: .6rem;
+  padding-left: 10px;
+  margin-bottom: .6rem;
+}
+
+.articlePreview a {
+  background-color: $rory_blue;
+  color: white;
+  padding: .6rem 10px;
+  cursor: pointer;
+  font-family: $family_serif;
+}
+
+.articlePreview .title {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.articlePreview .title h2 {
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.articlePreview .title .numberCircle {
+    background-color: $rory_red;
+    color: white;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: $family_mono;
+    text-align: center;
 }

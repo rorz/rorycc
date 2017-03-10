@@ -24,7 +24,6 @@ export default class Index extends React.Component {
         }}>
           Rory's Blog
         </h1>
-        Recent posts:
         <div>
           <h2>Building FormCharm</h2>
         </div>
