@@ -114,12 +114,14 @@ p {
   padding: .6rem 10px;
   cursor: pointer;
   font-family: $family_serif;
+  text-decoration: none;
 }
 
 .articlePreview .title {
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
+    text-transform: capitalize;
 }
 
 .articlePreview .title h2 {
