@@ -17,7 +17,11 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh'
+      }}>
         <Headroom
           wrapperStyle={{
             marginBottom: rhythm(1),
