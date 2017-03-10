@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-responsive-grid'
-import { Link } from 'react-router'
+import { IndexLink, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
@@ -40,10 +40,10 @@ module.exports = React.createClass({
               >
                 <div className="numberCircle yellow"><span>RO</span></div><div className="numberCircle yellow"><span>RY</span></div><div className="numberCircle blue"><span>CC</span></div>
               </Link>
-              <Link to={prefixLink('/')} activeClassName="active" className="navItem">Blog</Link>
-              <Link to={prefixLink('/code/')} className="navItem">Code</Link>
-              <Link to={prefixLink('/music/')} className="navItem">Music</Link>
-              <Link to={prefixLink('/about/')} className="navItem">About</Link>
+              <IndexLink to={prefixLink('/')} activeClassName="active" className="navItem">Blog</IndexLink>
+              <Link to={prefixLink('/code/')} activeClassName="active" className="navItem">Code</Link>
+              <Link to={prefixLink('/music/')} activeClassName="active" className="navItem">Music</Link>
+              <Link to={prefixLink('/about/')} activeClassName="active" className="navItem">About</Link>
             </nav>
           </Container>
         </Headroom>

@@ -65,7 +65,7 @@ export default class Index extends React.Component {
                 posts.push({path:page.path,preview:page.data.preview})
             }
         })
-        console.log(posts)
+        posts.reverse() // Make chronological
 
         return (
             <div>

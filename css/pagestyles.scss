@@ -94,6 +94,14 @@ p {
     font-family: $family_mono;
     width: 100%;
 }
+
+.footnote-ref {
+  font-family: $family_serif;
+  background-color: $rory_yellow;
+  color: #222;
+  padding: 0 2px;
+}
+
 /* Article Preview */
 
 .articlePreview {
