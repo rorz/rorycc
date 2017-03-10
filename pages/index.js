@@ -35,11 +35,13 @@ class ArticlePreviews extends React.Component {
             return (
                 <div className="articlePreview" key={title}>
                   <div className="title">
-                    <h2>{title}</h2>
+                    <Link to={path}>
+                      <h2>{title}</h2>
+                    </Link>
                     {dates}
                   </div>
                   <p>{postPreview}</p>
-                  <Link to={path}>Read more...</Link>
+                  <Link className="readMore" to={path}>Read more...</Link>
                 </div>
             )
 
@@ -67,41 +69,25 @@ export default class Index extends React.Component {
 
         return (
             <div>
-                <Helmet title={config.siteTitle} meta={[
-                    {
+              <Helmet title={config.siteTitle} meta={[
+                {
                         "name": "description",
                         "content": "Sample"
-                    }, {
+                }, {
                         "name": "keywords",
                         "content": "sample, something"
-                    }
-                ]}/>
-                <h1 style={{
+                }
+              ]}/>
+              <h1 style={{
                     padding: '10px',
                     color: 'white',
                     backgroundColor: 'black',
                     textDecoration: 'underline',
                     display: 'inline-block'
-                }}>
-                    Rory's Blog
-                </h1>
-                <ArticlePreviews posts={posts}/>
-                <div className="articlePreview">
-                    <div className="title">
-                        <h2>Building FormCharm</h2>
-                        <div className="numberCircle">
-                            <span>10</span>
-                        </div>
-                        <div className="numberCircle">
-                            <span>03</span>
-                        </div>
-                        <div className="numberCircle">
-                            <span>17</span>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <Link>Read more...</Link>
-                </div>
+              }}>
+                Rory's Blog
+              </h1>
+              <ArticlePreviews posts={posts}/>
             </div>
         )
     }

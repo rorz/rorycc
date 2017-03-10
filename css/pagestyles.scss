@@ -108,7 +108,7 @@ p {
   margin-bottom: .6rem;
 }
 
-.articlePreview a {
+.articlePreview .readMore {
   background-color: $rory_blue;
   color: white;
   padding: .6rem 10px;
@@ -124,7 +124,7 @@ p {
     text-transform: capitalize;
 }
 
-.articlePreview .title h2 {
+.articlePreview .title a, .articlePreview .title a h2 {
   margin-right: auto;
   margin-bottom: 0;
 }
