@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "rory-cc",
+  "description": "Rory's Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Rory McMeekin",
   "dependencies": {
     "front-matter": "^2.1.2",
     "gatsby": "^0.12.36",
@@ -28,7 +28,10 @@
     "gh-pages": "^0.12.0"
   },
   "keywords": [
-    "gatsby"
+    "rory",
+    "mcmeekin",
+    "rory mcmeekin",
+    "rorz"
   ],
   "license": "MIT",
   "main": "n/a",

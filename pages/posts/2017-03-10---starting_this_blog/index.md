@@ -20,3 +20,5 @@ I'm less trying to create a personal brand, but more an appealing style to the e
 So, we have a layout style, and an underlying design cue — but what about a personal twist? For that (which you may have recognised by now), I turned to the print style of the New York City Subway signage and maps. Public transport print has to be clear, recognisable, and direct. Their use of circular iconography and bold Helvetica type is laudable; I have tried to emulate that in the masthead and headings throughout the site. I'm not fully sold on my take of it yet — as perhaps it is a little too confusing from being a bit too *metro*; but maybe a successor style can evolve out of it.
 
 ![subway image](./nyc-subway.jpg)
+
+*A typical NYC subway sign — source: a856-citystore.nyc.gov*
